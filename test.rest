@@ -1,0 +1,34 @@
+### Get all spaces
+GET http://localhost:3000/spaces
+
+### Create space
+POST http://localhost:3000/spaces
+Content-Type: application/json
+
+{
+    "title": "bun"
+}
+
+### Get all Questions
+GET http://localhost:3000/questions
+
+### Create Question
+POST http://localhost:3000/questions
+Content-Type: application/json
+
+{
+    "text": "1 Is bun fast? what apakah kamu bisa?",
+    "spaceTitle": "bun"
+}
+
+### Create response
+POST http://localhost:3000/questions/response
+Content-Type: application/json
+
+{
+    "text": "Jawabannya adalah chess",
+    "questionId": "62cb28311098541fb94fbb2d"
+}
+
+### Testing response
+GET http://localhost:3000/questions/testing

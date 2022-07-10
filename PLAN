@@ -1,0 +1,15 @@
+space {
+	name
+	timestamps
+	questions [questionID: String]
+}
+
+question {
+	text
+	timestamps
+	responses {
+		timestamps
+		text
+	}
+}
+
