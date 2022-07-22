@@ -27,8 +27,9 @@ Content-Type: application/json
 
 {
     "text": "Jawabannya adalah chess",
-    "questionId": "62cb28311098541fb94fbb2d"
+    "questionId": "62da22a2a03e03248749669c"
 }
 
 ### Testing response
-GET http://localhost:3000/questions/testing
+GET http://localhost:3000
+
