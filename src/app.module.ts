@@ -10,7 +10,7 @@ import { QuestionsModule } from './questions/questions.module';
 @Module({
   imports: [
       SpacesModule,
-      MongooseModule.forRoot('mongodb://localhost:27017/github-issues-clone'),
+      MongooseModule.forRoot('mongodb+srv://falestio:falestio@cluster0.utciks0.mongodb.net/?retryWrites=true&w=majority'),
       QuestionsModule,
       ],
   controllers: [AppController],
